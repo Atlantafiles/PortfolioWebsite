@@ -699,3 +699,32 @@ function cleanupUnusedElements() {
 
 // Run cleanup every 10 seconds
 setInterval(cleanupUnusedElements, 10000);
+
+// Performance monitoring
+function measurePerformance() {
+    // Measure page load time
+    window.addEventListener('load', () => {
+        const loadTime = performance.now();
+        console.log(`⚡ Page loaded in ${loadTime.toFixed(2)}ms`);
+        
+        // Measure Three.js initialization time
+        const threeJSStart = performance.now();
+        
+        // Add class to indicate page is fully loaded
+        document.body.classList.add('loaded');
+        
+        // Track key metrics
+        if ('PerformanceObserver' in window) {
+            const observer = new PerformanceObserver((list) => {
+                for (const entry of list.getEntries()) {
+                    if (entry.entryType === 'paint') {
+                        console.log(`🎨 ${entry.name}: ${entry.startTime.toFixed(2)}ms`);
+                    }
+                }
+            });
+            observer.observe({ entryTypes: ['paint'] });
+        }
+    });
+}
+
+measurePerformance();
