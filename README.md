@@ -58,12 +58,12 @@ Cumulative Layout Shift: < 0.1
 
 ## 🤝 Contact
 
-Email: atlantagogoi11@gmail.com
-Phone: 6003536348
-LinkedIn: https://www.linkedin.com/in/atlanta-gogoi-0011a2221/
-GitHub: https://www.github.com/Atlantafiles/
+  - Email: atlantagogoi11@gmail.com
+  - Phone: 6003536348
+  - LinkedIn: https://www.linkedin.com/in/atlanta-gogoi-0011a2221/
+  - GitHub: https://www.github.com/Atlantafiles/
 
 ## 📄 License
-This project is open source and available under the MIT License.
+    This project is open source and available under the MIT License.
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Built with ❤️ by Atlanta Gogoi
