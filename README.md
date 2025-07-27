@@ -40,7 +40,7 @@ A modern, responsive portfolio website showcasing my skills and projects as a So
    # Using Python
     python -m http.server 8000
 
-  # Using Node.js (if you have live-server installed)
+   # Using Node.js (if you have live-server installed)
     live-server
 
 ## 📱 Browser Support
@@ -60,8 +60,8 @@ Cumulative Layout Shift: < 0.1
 
 Email: atlantagogoi11@gmail.com
 Phone: 6003536348
-LinkedIn: [Your LinkedIn Profile]
-GitHub: [Your GitHub Profile]
+LinkedIn: https://www.linkedin.com/in/atlanta-gogoi-0011a2221/
+GitHub: https://www.github.com/Atlantafiles/
 
 ## 📄 License
 This project is open source and available under the MIT License.
